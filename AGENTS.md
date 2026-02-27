@@ -2,22 +2,25 @@
 
 This repository includes a set of reusable AI coding agent personas in the `.agents/` directory. They are IDE-agnostic and work with any AI assistant that reads markdown instruction files (Cursor, Copilot, Windsurf, Cline, Aider, etc.).
 
-## Available Agents
+## Dev environment tips
+follow @console-agents.md
 
+## Available Agents
+Follow the instructions in each agent file to use them according to what is needed for the change you are making.
 | Agent | File | Purpose |
 |-------|------|---------|
-| **Code Planner** | [code-planner.md](.agents/code-planner.md) | Architect and plan features, modules, and system design |
-| **API Designer** | [api-designer.md](.agents/api-designer.md) | Design, document, and standardize RESTful APIs |
-| **Database Architect** | [database-architect.md](.agents/database-architect.md) | Design schemas, write migrations, and optimize queries |
-| **Test Engineer** | [test-engineer.md](.agents/test-engineer.md) | Write and maintain unit, integration, and end-to-end tests |
-| **Code Reviewer** | [code-reviewer.md](.agents/code-reviewer.md) | Review code for quality, style, and potential bugs |
-| **Debugger** | [debugger.md](.agents/debugger.md) | Systematically diagnose and fix bugs |
-| **Refactoring Specialist** | [refactoring-specialist.md](.agents/refactoring-specialist.md) | Improve code structure without changing behavior |
-| **Security Auditor** | [security-auditor.md](.agents/security-auditor.md) | Analyze code for security vulnerabilities |
-| **Performance Profiler** | [performance-profiler.md](.agents/performance-profiler.md) | Analyze, benchmark, and optimize performance |
-| **DevOps Engineer** | [devops-engineer.md](.agents/devops-engineer.md) | Manage builds, containers, CI/CD, and deployment |
-| **Documentation Writer** | [documentation-writer.md](.agents/documentation-writer.md) | Create and maintain project documentation |
-| **Feature Orchestrator** | [feature-orchestrator.md](.agents/feature-orchestrator.md) | End-to-end workflow coordinating all agents |
+| **API Designer** | @api-designer.md | Design, document, and standardize RESTful APIs |
+| **Code Planner** | @code-planner.md | Architect and plan features, modules, and system design |
+| **Code Reviewer** | @code-reviewer.md | Review code for quality, style, and potential bugs |
+| **Database Architect** | @database-architect.md | Design schemas, write migrations, and optimize queries |
+| **Debugger** | @debugger.md | Systematically diagnose and fix bugs |
+| **DevOps Engineer** | @devops-engineer.md | Manage builds, containers, CI/CD, and deployment |
+| **Documentation Writer** | @documentation-writer.md | Create and maintain project documentation |
+| **Feature Orchestrator** | @feature-orchestrator.md | End-to-end workflow coordinating all agents |
+| **Performance Profiler** | @performance-profiler.md | Analyze, benchmark, and optimize performance |
+| **Refactoring Specialist** | @refactoring-specialist.md | Improve code structure without changing behavior |
+| **Security Auditor** | @security-auditor.md | Analyze code for security vulnerabilities |
+| **Test Engineer** | @test-engineer.md | Write and maintain unit, integration, and end-to-end tests |
 
 ## Usage
 
